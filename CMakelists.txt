@@ -1,6 +1,5 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
-# 
-PROJECT(abc)
-set(CMAKE_CXX_FLAGS "-std=c++11")
- 
-FILE(GLOB_RECURSE SOURCE_FILES "*.cpp")
+cmake_minimum_required(VERSION 3.4.1)
+
+project(demo)
+
+add_executable(demo ShadowsSample.cpp) 
