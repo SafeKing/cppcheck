@@ -13,7 +13,17 @@ int main()
 
     if(a = 0.0f)
     {
-        cout<<"bad equal";
+        cout<<"bad equal"<<endl;
+    }
+
+    if(a == 0.0f)
+    {
+        cout<<"equal";
+    }
+
+    if(a = 0.0f)
+    {
+        cout<<"bad equal"<<endl;
     }
 
     return 0;
